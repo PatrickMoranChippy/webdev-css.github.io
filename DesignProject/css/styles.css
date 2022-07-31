@@ -1,0 +1,236 @@
+/*Universal Styles*/
+    html, body {
+        background-color: bisque;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(67, 67, 67);
+    }
+
+    .title {
+        margin-top: 120px;
+        margin-left: 50px;
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .container {
+        margin-left: 50px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 50px;
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: rgb(67, 67, 67);
+    }
+
+    .container_title {
+        padding: 20px;
+        margin: 0px;
+    }
+
+/*Navigation Styles*/
+    .navigation > li {
+        display: inline;
+        padding: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+
+    header .navigation {
+        background-color: rgb(224, 171, 106);
+        box-sizing: border-box;
+        margin: 0px;
+        position: fixed;
+        width: 100%;
+        padding: 20px;
+        top: 0;
+    }
+
+/*Colors Section Styles*/
+    .colors_container {
+        padding: 10px;
+    }
+
+    .color_panel_moss {
+        background-color: #AFEAAC;
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        border: solid #AFEAAC;
+        border-radius: 5px;
+    }
+
+    .color_panel_moss:hover {
+        border: solid rgb(67, 67, 67);
+    }
+
+    .color_panel_grass {
+        background-color: #79E17A;
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        border: solid #79E17A;
+        border-radius: 5px;
+    }
+
+    .color_panel_grass:hover {
+        border: solid rgb(67, 67, 67);
+    }
+
+    .color_panel_pine {
+        background-color: #B19F8B;
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        border: solid #B19F8B;
+        border-radius: 5px;
+    }
+
+    .color_panel_pine:hover {
+        border: solid rgb(67, 67, 67);
+    }
+
+    .color_panel_coffee {
+        background-color: #D9C8AE;
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        border: solid #D9C8AE;
+        border-radius: 5px;
+    }
+
+    .color_panel_coffee:hover {
+        border: solid rgb(67, 67, 67);
+    }
+
+    .color_panel_cream {
+        background-color: #F3ECC5;
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        border: solid #F3ECC5;
+        border-radius: 5px;
+    }
+
+    .color_panel_cream:hover {
+        border: solid rgb(67, 67, 67);
+    }
+
+    .color_panel_shark {
+        background-color: #D0D1C6;
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        border: solid #D0D1C6;
+        border-radius: 5px;
+    }
+
+    .color_panel_shark:hover {
+        border: solid rgb(67, 67, 67);
+    }
+
+.color_label {
+    text-align: center;
+}
+
+.color_hex {
+    text-align: center;
+}
+
+/*Fonts Section Styles*/
+.fonts_container{
+    padding: 10px;
+}
+
+.font_title {
+    text-decoration: underline;
+}
+
+.font_normal {
+    font-weight: 400;
+}
+
+.font_bold {
+    font-weight: 700;
+}
+
+.font_italics {
+    font-style: italic;
+}
+
+.font_panel_raleway {
+    font-family: 'Raleway', sans-serif;
+    padding: 0 10px 10px 10px;
+}
+
+.font_panel_source_code_pro {
+    font-family: 'Source Code Pro', sans-serif;
+    padding: 10px;
+}
+
+.font_panel_pt_serif {
+    font-family: 'PT Serif', serif;
+    padding: 10px;
+}
+
+/*Text Styles Section Styles*/
+.text_styles_container{
+    padding: 10px;
+}
+
+.h1_title {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text_styles_panel_h1 {
+    padding: 0 10px 0 10px;
+}
+
+.h2_title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text_styles_panel_h2 {
+    padding: 10px 10px 0 10px;
+}
+
+.p_title {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+}
+
+.text_styles_panel_p {
+    padding: 10px 10px 0 10px;
+}
+
+/*Footer Section*/
+footer .container_title {
+    padding-top: 60px;
+}
+
+footer p {
+    margin-left: 30px;
+}
+
+.book_title {
+    font-style: italic;
+}
+
+.author {
+    font-weight: 700;
+}
